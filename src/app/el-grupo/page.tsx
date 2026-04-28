@@ -5,7 +5,7 @@ export default function ElGrupo() {
   return (
     <div>
       {/* HEADER DE LA PÁGINA */}
-      <section className="bg-srs-burgundy text-white py-24">
+      <section className="bg-srs-burgundy text-white pt-32 pb-24">
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">El Grupo</h1>
           <p className="text-xl max-w-3xl mx-auto font-light opacity-90">

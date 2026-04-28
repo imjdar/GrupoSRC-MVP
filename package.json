@@ -13,7 +13,7 @@
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "eslint --fix",
-      "npm run test -- --run"
+      "npm run test -- --run --passWithNoTests"
     ]
   },
   "dependencies": {

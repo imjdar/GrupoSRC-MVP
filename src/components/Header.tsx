@@ -27,7 +27,7 @@ export default function Header() {
   return (
     <nav 
       className={`fixed w-full z-50 transition-all duration-300 h-24 flex items-center ${
-        isScrolled ? 'bg-srs-burgundy shadow-lg' : 'bg-transparent'
+        isScrolled || pathname !== '/' ? 'bg-srs-burgundy shadow-lg' : 'bg-transparent'
       }`}
     >
       <div className="container mx-auto px-10 flex items-center justify-between">

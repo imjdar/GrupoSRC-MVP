@@ -23,14 +23,17 @@ export default function Actualidad() {
   ];
 
   return (
-    <div className="pt-20 bg-gray-50 min-h-screen">
+    <div className="bg-gray-50 min-h-screen">
+      <section className="bg-srs-burgundy text-white pt-32 pb-16">
+        <div className="container mx-auto px-6 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Actualidad</h1>
+          <p className="max-w-2xl mx-auto opacity-90">
+            Mantente informado sobre las últimas noticias, premios e hitos importantes de las empresas que conforman nuestro holding.
+          </p>
+        </div>
+      </section>
+
       <div className="container mx-auto px-6 py-16">
-        <h1 className="text-4xl md:text-5xl font-bold text-center text-srs-burgundy mb-4">
-          Actualidad
-        </h1>
-        <p className="text-center text-gray-600 mb-16 max-w-2xl mx-auto">
-          Mantente informado sobre las últimas noticias, premios e hitos importantes de las empresas que conforman nuestro holding.
-        </p>
 
         {/* Filtros (Placeholder UI) */}
         <div className="flex justify-center gap-4 mb-12 flex-wrap">

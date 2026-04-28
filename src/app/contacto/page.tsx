@@ -1,8 +1,8 @@
 export default function Contacto() {
   return (
-    <div className="pt-20 bg-white min-h-screen">
+    <div className="bg-white min-h-screen">
       {/* Header */}
-      <section className="bg-gray-900 text-white py-16">
+      <section className="bg-gray-900 text-white pt-32 pb-16">
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Contacto</h1>
           <p className="text-gray-400 max-w-2xl mx-auto">
