@@ -48,8 +48,8 @@ export default function ElGrupo() {
             
             <div className="relative w-full aspect-[4/3]">
               <Image 
-                src="https://www.gruposrs.ec/wp-content/uploads/2024/01/collage-home.jpg" 
-                alt="Grupo SRS" 
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070" 
+                alt="Gente SRS" 
                 fill
                 className="object-cover shadow-2xl rounded-sm"
               />

@@ -7,7 +7,7 @@ export default function Home() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image 
-            src="https://www.gruposrs.ec/wp-content/uploads/2024/01/hero-home.jpg" 
+            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070" 
             alt="Hero Background"
             fill
             className="object-cover"
@@ -47,7 +47,7 @@ export default function Home() {
           <div className="w-full md:w-1/2">
             <div className="relative w-full aspect-[4/3] shadow-2xl">
               <Image 
-                src="https://www.gruposrs.ec/wp-content/uploads/2024/01/collage-home.jpg" 
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070" 
                 alt="Gente SRS"
                 fill
                 className="object-cover"
@@ -65,10 +65,10 @@ export default function Home() {
         
         <div className="flex gap-6 px-6 overflow-x-auto pb-10 no-scrollbar">
           {[
-            { name: 'IMPTEK', desc: 'Vialidad e Impermeabilización', img: 'https://www.gruposrs.ec/wp-content/uploads/2024/01/empresa-imptek.jpg' },
-            { name: 'ASTS', desc: 'Servicios Estratégicos', img: 'https://www.gruposrs.ec/wp-content/uploads/2024/01/empresa-asts.jpg' },
-            { name: 'SHAMUNA', desc: 'Industria Textil', img: 'https://www.gruposrs.ec/wp-content/uploads/2024/01/empresa-shamuna.jpg' },
-            { name: 'INMO SRS', desc: 'Desarrollo Inmobiliario', img: 'https://www.gruposrs.ec/wp-content/uploads/2024/01/empresa-inmo.jpg' }
+            { name: 'IMPTEK', desc: 'Vialidad e Impermeabilización', img: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=2070' },
+            { name: 'ASTS', desc: 'Servicios Estratégicos', img: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070' },
+            { name: 'SHAMUNA', desc: 'Industria Textil', img: 'https://images.unsplash.com/photo-1605289982774-9a6fef564df8?q=80&w=2070' },
+            { name: 'INMO SRS', desc: 'Desarrollo Inmobiliario', img: 'https://images.unsplash.com/photo-1460317442991-0ec209397118?q=80&w=2070' }
           ].map((company) => (
             <div key={company.name} className="min-w-[400px] h-[500px] relative group cursor-pointer overflow-hidden">
               <Image 
@@ -93,7 +93,7 @@ export default function Home() {
           <div className="w-full md:w-1/2">
             <div className="relative w-full aspect-[4/3] shadow-xl">
               <Image 
-                src="https://www.gruposrs.ec/wp-content/uploads/2024/01/sostenibilidad-home.jpg" 
+                src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=2070" 
                 alt="Sostenibilidad"
                 fill
                 className="object-cover"
@@ -121,7 +121,7 @@ export default function Home() {
           <div className="w-full md:w-1/2">
             <div className="relative w-full aspect-[4/3] shadow-xl">
               <Image 
-                src="https://www.gruposrs.ec/wp-content/uploads/2024/01/inversionistas-home.jpg" 
+                src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?q=80&w=2070" 
                 alt="Inversionistas"
                 fill
                 className="object-cover"
@@ -156,7 +156,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { title: 'Reconocimiento a la Excelencia Industrial', cat: 'PREMIOS', img: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=2070' },
-              { title: 'Nueva Alianza Estratégica Regional', cat: 'NOTICIAS', img: 'https://images.unsplash.com/photo-1586528116311-ad8ed7c80a30?q=80&w=2070' },
+              { title: 'Nueva Alianza Estratégica Regional', cat: 'NOTICIAS', img: 'https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=2070' },
               { title: 'Inauguración de Planta Fotovoltaica', cat: 'SOSTENIBILIDAD', img: 'https://images.unsplash.com/photo-1556905055-8f358a7a47b2?q=80&w=2070' }
             ].map((news, idx) => (
               <div key={idx} className="group cursor-pointer">

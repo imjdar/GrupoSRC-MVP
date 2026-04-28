@@ -6,7 +6,7 @@ export default function Portafolio() {
     {
       title: 'Soluciones Viales Sostenibles',
       description: 'Lideramos la industria de impermeabilización y vialidad con productos de alta tecnología y bajo impacto ambiental.',
-      image: 'https://images.unsplash.com/photo-1541888946425-d81bb19480c5?q=80&w=2070',
+      image: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=2070',
       company: 'IMPTEK',
       link: 'https://www.gruposrs.ec/imptek/'
     },

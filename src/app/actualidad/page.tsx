@@ -12,7 +12,7 @@ export default function Actualidad() {
       title: "Nuevo centro logístico de Grupo SRS en Guayaquil",
       date: "28 Septiembre, 2023",
       category: "Corporativo",
-      image: "https://images.unsplash.com/photo-1586528116311-ad8ed7c80a30?q=80&w=2070"
+      image: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=2070"
     },
     {
       title: "Shamuna presenta su nueva colección ecológica",
